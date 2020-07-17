@@ -1,5 +1,9 @@
 class Person {
   moveTo(distance){
+
+  }
+
+  shout(message){
     
   }
 }
