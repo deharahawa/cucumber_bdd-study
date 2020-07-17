@@ -1,9 +1,9 @@
 const { Given, When, Then } = require('cucumber')
 
-Given('Lucy is located {int} meters from Sean', function (int) {
-  // Given('Lucy is located {float} meters from Sean', function (float) {
-    // Write code here that turns the phrase above into concrete actions
-    return 'pending';
+Given('Lucy is located {int} meters from Sean', function (distance) {
+    this.lucy = new Person
+    this.sean = new Person
+    this.lucy.moveTo(distante)
   });
 
 When('Sean shouts {string}', function (string) {
