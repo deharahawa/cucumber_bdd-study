@@ -10,8 +10,9 @@ Given('Lucy is located {int} meters from Sean', function (distance) {
 
 When('Sean shouts {string}', function (message) {
   this.sean.shout(message)
+  this.message = message
 });
 
 Then('Lucy hears Sean\'s message', function () {
-  assertThat(this.lucy.messageHeard(), is([this.message])
+  assertThat(this.lucy.messageHeard(), is([this.message]))
 });
