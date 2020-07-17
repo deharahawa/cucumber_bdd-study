@@ -14,5 +14,5 @@ When('Sean shouts {string}', function (message) {
 });
 
 Then('Lucy hears Sean\'s message', function () {
-  assertThat(this.lucy.messageHeard(), is([this.message]))
+  assertThat(this.lucy.messagesHeard(), is([this.message]))
 });

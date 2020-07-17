@@ -4,7 +4,11 @@ class Person {
   }
 
   shout(message){
-    
+
+  }
+
+  messagesHeard() {
+    return []
   }
 }
 
